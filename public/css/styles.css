@@ -1,0 +1,622 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #EAC926;
+    padding: 20px;
+    max-width: 100%
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+main {
+
+    text-align: center;
+    max-width: 100%
+}
+
+
+.gh {
+    background-color: #ebebeb;
+    
+}
+
+
+
+.centrado {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 100%;
+    align-items: center;
+
+
+
+}
+
+.pie2 {
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.pie2 h1 {
+    font-size: 16px;
+}
+
+
+.pie2 img {
+
+    width: 2em;
+    height: 2em;
+    color: lightblue;
+}
+
+.pie3 {
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.pie3 h1{
+    font-size: 16px;
+}
+
+.pie3 img {
+
+    width: 2em;
+    height: 2em;
+
+}
+
+.pie4 {
+
+    text-align: center;
+    font-size: 12px;
+    line-height: 2em;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+.pie4 h1 {
+    font-size: 16px;
+}
+
+.pie4 h2{
+    font-size: 16px;
+}
+
+
+.pie-5 h1{
+
+    font-size: 16px;
+}
+
+
+.pie i {
+
+    color: blue;
+    max-width: 2em;
+    font-size: 19px;
+}
+
+
+
+
+.titular {
+    font-size: 24px;
+    background-color: #ebebeb;
+    padding: 20px;
+       
+}
+
+
+.imagen2 {
+
+    border-bottom: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+    background-color: white;
+    
+}
+
+
+
+.contenedor1 {
+
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #ebebeb;
+    
+}
+
+.imagen1 {
+    padding: solid 15px #ebebeb;
+    margin-bottom: 10px;
+    
+}
+
+.imagen1:hover{
+
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+.imagen1 img {
+
+    width: 90%;
+    margin-top: 10px;
+
+}
+
+
+.detalles1 {
+
+    width: 100%;
+    padding: 15px;
+    text-align: left;
+    justify-content: center;
+    background-color: white;
+
+    opacity: 0;
+    transition: 750ms;
+
+    
+}
+
+
+.detalles1:hover{
+    opacity: 1;
+}
+
+
+.detalles1 ul li {
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+
+
+
+
+.camion-envio {
+
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    color: #39b54a;
+    
+}
+
+.camion-envio:hover{
+    transform: rotateZ(270deg)
+}
+
+
+.descuento {
+    color: green;
+}
+
+.pre-des {
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.precio {
+
+    flex-grow: 0.3;
+}
+
+.descuento {
+
+    flex-grow: 0.7;
+}
+
+
+
+.buscar{
+
+    border: solid 1px black;
+    width: 100%;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin: auto;
+    
+}
+
+.contenedor-lupa{
+    
+    width: 20px;
+    margin: auto;
+
+    
+
+}
+
+.buscar-lupa{
+
+    
+    width: 50%;
+    display: flex;
+    margin-left: 10px;
+    
+}
+
+.logo-lupa{
+    display: flex;
+
+}
+
+
+
+.hamburger {
+    background-color: #03264C;
+    color: #ffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+.main-navbar {
+    display: none;
+}
+
+.main-navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    color: #222222;
+    display: inline-block;
+    padding: 5px 0;
+    font-size: 17px;
+}
+
+
+.logo {
+    width: 50%;
+    }
+
+
+@media (min-width:768px) {
+    .main-header {
+        display: flex;
+        
+    }
+
+    .logo-lupa{
+        width: 350%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+
+    
+    .buscar{
+        margin: auto;
+        border-radius: 2px;
+        width: 100%;
+        margin-left: 10px;
+       
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .main-navbar {
+
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul {
+        display: flex;
+    }
+
+    .grupo-1 {
+        display: flex;
+        
+    }
+
+
+    .imagen1{
+        margin: 30px;
+    }
+
+    .titular{
+        text-align: left;   
+        font-size: 30px;
+        margin-left: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .contenedor-lupa{
+        border: solid 1px black;
+        border-radius: 5px;
+        margin: auto;
+        
+    }
+
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    .centrado {
+        
+        font-size: 12px;
+        font-weight: 400;
+        width: 150%;
+        text-align: right;
+        margin-left: 70px;
+        justify-items: right;
+        margin: auto;
+        
+    }
+
+    .buscar-lupa{
+    
+        display: flex;
+
+    }
+
+
+
+    .logo {
+        width: 250px;
+    }
+}
+    
+
+
+
+    @media (min-width: 1200px) {
+
+        .main-header,
+        .main-navbar {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .main-header {
+            align-items: center;
+        }
+
+        .main-navbar li {
+            margin: 0 10px;
+        }
+
+        .main-navbar {
+            margin-top: 30px;
+        }
+
+        .main-navbar a {
+            font-size: 19px;
+        }
+
+        .grupo-2{
+            display: flex;
+        }
+
+        
+
+        .titular{
+            position: relative;
+        }
+
+       
+
+        .buscar-lupa{
+            width: 60%;
+        }
+
+        .buscar{
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+        }   
+
+        .centrado{
+            
+            font-size: 15px;
+            font-weight: 200;
+
+        }
+
+        .pie{
+            display: flex;
+        }
+
+        .pie i:hover{
+            color: #0022AA;
+        }
+
+
+
+
+    }
+
+    
+
+
+
+
+.registro{
+    background-color: #ebebeb;
+    max-width: 100%;
+    padding: 20px 15px;
+    
+}
+
+.perfil{
+    max-width: 80%;
+    display: flex;       
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
+.control{
+    margin-bottom: 15px;
+
+
+}
+
+.control label {
+    margin-bottom: 5px;
+    font-style: italic;
+    display: block;
+}
+
+.control2{
+    width: 100%;
+    padding: 8px 8px;
+    border-radius: 10px;
+    
+}
+
+.botones{
+    border: solid 1px black;
+    background-color: #39b54a;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    
+}
+
+.botones2{
+    text-align: center;
+    justify-content: space-between;
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.intereses{
+    
+    margin-top: 10px;
+    margin-bottom: 30px; 
+    
+}
+
+.opcion{
+    margin:5px;
+    padding: 5px;
+}
+
+.categoria-de-interes{
+    
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.login {
+    
+    text-align: center;
+    background-color: #ebebeb;
+    margin-bottom: 10px;
+}
+
+
+
+.contraseña{
+    
+    margin-top: 30px;
+    
+}
+
+.usuario input {
+    border-radius: 7px;
+    padding: 10px;
+    border: solid 1px black;
+    margin-top: 20px;
+    width: 50%;
+}
+
+
+.contraseña input {
+    border-radius: 7px;
+    width: 50%;
+    padding: 10px;
+    border: solid 1px black;
+}
+
+.inicio-sesion{
+    margin-top: 40px;
+}
+
+.inicio-sesion button{
+    padding: 10px;
+    border-radius: 7px;
+    background-color: blue;
+    width: 50%;
+    font-weight:lighter;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+    transition: 750ms;
+}
+
+.inicio-sesion button:hover{
+    background-color: #0022AA;
+}
+
+
+
+
+
+.caja-1{
+    background-color: blue;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    
+    opacity: 1;
+    transition: 750ms;
+    
+    
+}
